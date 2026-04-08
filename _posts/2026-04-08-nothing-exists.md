@@ -11,4 +11,8 @@ I read this beautiful [zen koan](https://ashidakim.com/zenkoans/82nothingexists.
 
 freedom is realizing that you already have everything you need.
 
+>Dokuon, who was smoking quietly, said nothing. Suddenly he whacked Yamaoka with his bamboo pipe. This made the youth quite angry.
+
+> "If nothing exists," inquired Dokuon, "where did this anger come from?"
+
 enlightenment is figuring out everything comes from within you.
