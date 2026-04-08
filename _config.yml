@@ -1,0 +1,12 @@
+title: nothing exists
+email: cole@staymellow.ai
+description: >-
+  just ideas
+baseurl: ""
+url: "https://colesmcintosh.github.io"
+github_username: colesmcintosh
+twitter_username: colesmcintosh
+
+theme: minima
+plugins:
+  - jekyll-feed
