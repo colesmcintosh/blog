@@ -1,1 +1,1 @@
-My (not so) well thought out blog
+My handwritten blog
