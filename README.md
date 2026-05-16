@@ -1,6 +1,6 @@
 # a cup of tea
 
-A handwritten blog by [Cole McIntosh](https://github.com/colesmcintosh) — short, not-so-well-thought-out posts on software, AI, and whatever else is on my mind.
+A blog by [Cole McIntosh](https://github.com/colesmcintosh) — short, not-so-well-thought-out posts on software, AI, and whatever else is on my mind.
 
 Live at [colesmcintosh.github.io](https://colesmcintosh.github.io).
 
