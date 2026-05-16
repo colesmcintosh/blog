@@ -1,29 +1,35 @@
 # a cup of tea
 
-A blog by [Cole McIntosh](https://github.com/colesmcintosh) — short, not-so-well-thought-out posts on software, AI, and whatever else is on my mind.
+The personal blog of [Cole McIntosh](https://github.com/colesmcintosh). Short essays on software engineering, AI, and the craft of building things.
 
-Live at [colesmcintosh.github.io](https://colesmcintosh.github.io).
+Published at [colesmcintosh.github.io](https://colesmcintosh.github.io).
 
-## Running locally
+## Local development
+
+Install dependencies and start the Jekyll server:
 
 ```sh
 bundle install
 bundle exec jekyll serve
 ```
 
-Then open [http://127.0.0.1:4000](http://127.0.0.1:4000).
+The site will be available at [http://127.0.0.1:4000](http://127.0.0.1:4000) with live reload enabled.
 
-## Writing a post
+## Adding a post
 
-Drop a new markdown file in `_posts/` named `YYYY-MM-DD-some-title.md` with the frontmatter:
+Create a new markdown file in `_posts/` following the `YYYY-MM-DD-title-slug.md` naming convention, with the following frontmatter:
 
 ```yaml
 ---
 layout: post
-title: "some title"
+title: "post title"
 date: YYYY-MM-DD 09:00:00 -0500
 categories: update
 ---
 ```
 
-Built with [Jekyll](https://jekyllrb.com) and the [Minima](https://github.com/jekyll/minima) theme.
+## Built with
+
+- [Jekyll](https://jekyllrb.com) — static site generator
+- [Minima](https://github.com/jekyll/minima) — theme
+- GitHub Pages — hosting
