@@ -1,0 +1,19 @@
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-inner">
+      <span class="footer-name">{{ site.title }}</span>
+      <span class="footer-links">
+        {%- if site.email -%}
+          <a href="mailto:{{ site.email }}">Email</a>
+        {%- endif -%}
+        {%- if site.github_username -%}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {%- endif -%}
+        {%- if site.twitter_username -%}
+          <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener noreferrer">Twitter</a>
+        {%- endif -%}
+        <a href="{{ "/feed.xml" | relative_url }}" target="_blank" rel="noopener noreferrer">RSS</a>
+      </span>
+    </div>
+  </div>
+</footer>
