@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com
+A personal blog by [Cole McIntosh](https://github.com/{{ site.github_username }}){:target="_blank" rel="noopener noreferrer"} &mdash; short essays on software engineering, AI, and the craft of building things.
 
-You can find the source code for Minima at GitHub: jekyll / minima
-
-You can find the source code for Jekyll at GitHub: jekyll / jekyll
+Reach me at [{{ site.email }}](mailto:{{ site.email }}).

@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1 class="hero-title">
+    {{ site.title }}.
+  </h1>
+  <p class="hero-lede">
+    {{ site.description }}
+  </p>
+</section>
+
+{{ content }}
+
+{%- if site.posts.size > 0 -%}
+<section class="writing">
+  <h2 class="section-heading">Writing</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li class="post-list-item">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title | escape }}</span>
+        <span class="post-meta">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ post.date | date: date_format }}
+        </span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+{%- endif -%}
