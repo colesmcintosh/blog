@@ -25,4 +25,4 @@ The practical effect is that certain classes of work—large refactors, language
 
 It is still early. Session length, consistency on production-grade changes, and integration into real team processes all have room to improve. But the velocity of releases, the specific engineering focus on long-horizon reliability and workflow primitives, and the quick sharing of capabilities (models crossing tools) suggest the gap between current agents and reliable daily drivers is narrowing quickly.
 
-The tooling is moving faster than most organizations can update their habits. That is the real story behind the buzz.
+The tooling is moving faster than most organizations can update their habits. That is the real story.
