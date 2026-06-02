@@ -17,7 +17,9 @@ xAI shipped [Grok Build](https://x.ai/cli) around the same period as a terminal-
 
 The underlying grok-build-0.1 model is tuned for agentic software engineering and tool use; the same model is now exposed via the xAI API in early access. Early hands-on reports praise the TUI as best-in-class for this category of tool. Model capability and long unattended execution have drawn more measured feedback in the initial beta, with the team acknowledging the early state and signaling fast iteration ahead. Elon Musk replied directly to one detailed review noting "rapid improvement coming."
 
-A small but telling detail: Composer 2.5 is already selectable as a model inside the Grok Build TUI.
+xAI announced that Cursor's Composer 2.5 is now available inside Grok Build. Type `/model` in the TUI and select it from the menu. xAI describes it as a fast, state-of-the-art model that excels on long-running tasks and following complex instructions—the exact strengths that have driven attention to the Cursor release. See the [official note](https://x.ai/news/composer-2-5).
+
+This means Grok Build users can switch between xAI's own coding model and Composer 2.5 without changing tools or losing the harness features: plan mode, parallel subagents, skills, hooks, MCP integrations, and direct filesystem control all continue to work on top of the chosen backend.
 
 These releases sit in a broader surge of specialized coding agents. One emphasizes deep integration inside an editor with its own model line. The other prioritizes a powerful, extensible harness that lives in the terminal and plays well with existing workflows and external services. Both invest heavily in the "agentic" layer beyond raw model intelligence: planning, decomposition, verification loops, extensibility, and memory of project conventions.
 
