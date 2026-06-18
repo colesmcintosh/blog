@@ -2,6 +2,10 @@
 layout: default
 ---
 <section class="hero">
+  <p class="hero-eyebrow">
+    <span class="status-dot" aria-hidden="true"></span>
+    Archive // {{ site.posts.size }} entries
+  </p>
   <h1 class="hero-title">
     {{ site.title }}.
   </h1>
@@ -14,16 +18,14 @@ layout: default
 
 {%- if site.posts.size > 0 -%}
 <section class="writing">
-  <h2 class="section-heading">Writing</h2>
+  <h2 class="section-heading">// Writing</h2>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li class="post-list-item">
       <a class="post-link" href="{{ post.url | relative_url }}">
+        <span class="post-index">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
         <span class="post-title">{{ post.title | escape }}</span>
-        <span class="post-meta">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          {{ post.date | date: date_format }}
-        </span>
+        <span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}</span>
       </a>
     </li>
     {%- endfor -%}

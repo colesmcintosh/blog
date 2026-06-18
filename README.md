@@ -1,4 +1,4 @@
-# a cup of tea
+# telemetry
 
 The personal blog of [Cole McIntosh](https://github.com/colesmcintosh). Short essays on software engineering, AI, and the craft of building things.
 

@@ -4,10 +4,12 @@ layout: default
 <article class="post">
   <header class="post-header">
     <p class="post-eyebrow">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+      {%- assign words = page.content | number_of_words -%}
+      {%- assign minutes = words | divided_by: 200 -%}
+      {%- if minutes == 0 -%}{%- assign minutes = 1 -%}{%- endif -%}
+      <span class="post-eyebrow-sep" aria-hidden="true">//</span>
+      <span class="post-readtime">Est. {{ minutes }} min</span>
     </p>
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>

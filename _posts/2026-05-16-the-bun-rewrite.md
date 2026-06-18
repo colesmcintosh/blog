@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the bun rewrite"
+title: "rewrites, unstuck"
 date: 2026-05-16 09:00:00 -0500
 categories: update
 ---

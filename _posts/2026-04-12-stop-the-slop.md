@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "stop the slop"
+title: "resist the slop"
 date: 2026-04-12 09:00:00 -0500
 categories: update
 ---
