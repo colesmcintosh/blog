@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "composer 2.5 and grok build"
+title: "composer & grok"
 date: 2026-06-02 09:00:00 -0500
 categories: update
 ---
