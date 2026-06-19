@@ -97,12 +97,6 @@ a:hover { color: var(--signal); }
 }
 .site-title:hover { color: var(--bone); }
 .site-title:hover .site-name { color: var(--signal); }
-.site-mark {
-  display: block;
-  color: var(--ash);
-  transition: color 140ms ease;
-}
-.site-title:hover .site-mark { color: var(--bone); }
 .site-name {
   font-family: var(--mono);
   font-size: 0.72rem;
