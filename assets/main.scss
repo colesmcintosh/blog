@@ -323,11 +323,6 @@ a:hover { color: var(--signal); }
   margin: 3rem 0 1rem;
   color: var(--bone);
 }
-.post-content h2::before {
-  content: "## ";
-  color: var(--ash);
-  font-weight: 400;
-}
 .post-content h3 {
   font-family: var(--grotesk);
   font-weight: 500;
@@ -367,12 +362,15 @@ a:hover { color: var(--signal); }
 .post-content blockquote p:last-child { margin-bottom: 0; }
 .post-content code {
   font-family: var(--mono);
-  font-size: 0.84em;
+  font-size: 0.78em;
   background: var(--plate);
   border: 1px solid var(--steel);
-  padding: 0.1em 0.4em;
-  border-radius: 0;
+  padding: 0.08em 0.28em;
   color: var(--bone);
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .post-content pre {
   font-family: var(--mono);
